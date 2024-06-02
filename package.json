@@ -1,0 +1,31 @@
+{
+  "name": "ms-abdulah-wahdi-betest",
+  "version": "1.0.0",
+  "description": "Microservice For Solving Test Jenius",
+  "main": "dist/server.js",
+  "scripts": {
+    "start": "node dist/server.js",
+    "build": "tsc",
+    "dev": "ts-node-dev src/server.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Abdulah Wahdi",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1",
+    "kafkajs": "^1.15.0",
+    "mongoose": "^6.1.5",
+    "redis": "^4.0.0",
+    "jsonwebtoken": "^8.5.1",
+    "@types/express": "^4.17.11",
+    "@types/node": "^16.11.11"
+  },
+  "devDependencies": {
+    "@types/jsonwebtoken": "^8.5.4",
+    "@types/mongoose": "^5.10.5",
+    "@types/redis": "^2.8.28",
+    "ts-node": "^10.9.2",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.4.5"
+  }
+}
