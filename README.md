@@ -1,4 +1,4 @@
-# MS-ABDULAH-WAHDI-BETEST
+# ABDULAH-WAHDI-BETEST
 
 Repository for Task 2 of Technical Test Jenius. 
 
